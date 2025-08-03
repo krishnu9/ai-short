@@ -3,11 +3,15 @@ name = "api"
 version = "0.1.0"
 description = "FastAPI backend for ReelsappAI"
 authors = [
-    { name = "Gemini", email = "gemini@google.com" },
+    { name = "Krishnu", email = "krishnu9@outlook.com" },
 ]
 dependencies = [
     "fastapi",
     "uvicorn[standard]",
+    "pydantic",
+    "spacy",
+    "nltk",
+    "python-multipart",
 ]
 requires-python = ">=3.9"
 
